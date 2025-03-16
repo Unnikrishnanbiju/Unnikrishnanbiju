@@ -9,10 +9,11 @@ public class Number01
 {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.ebay.com/");
+        driver.get("https://www.google.com/");
 //        Send key word shirt to the search using its Xpath
-        driver.findElement(By.xpath("//*[@id=\"gh-ac\"]")).sendKeys("shirt");
-        driver.findElement(By.xpath("//*[@id=\"gh-search-btn\"]/span")).click();
+        driver.findElement(By.xpath("//*[@id=\"APjFqb\"]")).sendKeys("shirt");
+//        driver.findElement(By.xpath("//*[@id=\"gh-search-btn\"]/span")).click();
+        driver.findElement(By.name("btnK")).click();
 
 
 // close the browser window
