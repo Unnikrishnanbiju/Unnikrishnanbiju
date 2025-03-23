@@ -12,8 +12,13 @@ public class testNG001 {
     }
 
     @Test
-    void  demo2(){
-        System.out.println("test");
+    void  Test1(){
+        System.out.println("test1");
+    }
+
+    @Test
+    void  Test2(){
+        System.out.println("test2");
     }
 
     @AfterMethod
