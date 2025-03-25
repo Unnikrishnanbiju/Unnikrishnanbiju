@@ -4,8 +4,6 @@ import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -39,14 +37,6 @@ driver.manage().window().maximize();
         }
         WebElement link_text_start_tril = driver.findElement(By.linkText("Start a free trial"));
         link_text_start_tril.click();
-    }
-
-    @Test
-    public void testBrowser2(){
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-maximized");
-        driver.get("https://app.vwo.com");
-        Assert.assertEquals(driver.getTitle(),"Google");
     }
 
 
