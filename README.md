@@ -52,3 +52,6 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bijuunnikrishnan&show_icons=true&locale=en" alt="bijuunnikrishnan" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bijuunnikrishnan&" alt="bijuunnikrishnan" /></p>
+
+
+![snake gif](https://github.com/Unnikrishnanbiju/Unnikrishnanbiju/blob/output/github-snake.svg)
