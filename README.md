@@ -1,4 +1,4 @@
-[![MasterHead](https://thumbs.gfycat.com/ColorlessBitesizedKob-max-1mb.gif)]
+
 <h1 align="center">Hi 👋, I'm Biju Unnikrishnan</h1>
 <h3 align="center">A passionate automation tester from India.</h3>
 <img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
@@ -47,11 +47,23 @@
 
 ###
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bijuunnikrishnan&show_icons=true&locale=en&layout=compact" alt="bijuunnikrishnan" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bijuunnikrishnan&show_icons=true&locale=en" alt="bijuunnikrishnan" /></p>
+###
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bijuunnikrishnan&" alt="bijuunnikrishnan" /></p>
+<br clear="both">
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Unnikrishnanbiju&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Unnikrishnanbiju&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+</div>
+
+###
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Unnikrishnanbiju&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+
+
+###
 <div align="center">
 
 ![snake gif](https://github.com/Unnikrishnanbiju/Unnikrishnanbiju/blob/output/github-snake.svg)
