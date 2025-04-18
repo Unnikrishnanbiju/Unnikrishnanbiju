@@ -10,6 +10,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class Selenium04 {
 ChromeDriver driver;
     @BeforeClass
@@ -60,11 +62,14 @@ ChromeDriver driver;
         WebElement button_sub = driver.findElement(By.xpath("//*[@id=\"js-login-btn\"]"));
         button_sub.click();
 
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+//        try {
+//            Thread.sleep(10000);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
 
         WebElement name_on_dashboard = driver.findElement(By.xpath("//span[@data-qa=\"lufexuloga]"));
         System.out.println(name_on_dashboard.getText());
